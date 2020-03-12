@@ -7,11 +7,11 @@
 
 
 用法：
-> 	-h [ip]:	检测一个主机对应的操作系统版本，不可与-f同时用
-	-f [path]:	对文件中的ip地址做检测，一行一个ip，不可与-h同时用
-	-r [n] :	设置检测线程，默认为1
-	示例1: ./command -h 10.1.1.1
-	示例2：./command -f ip.txt -r 20
+- 	-h [ip]:	检测一个主机对应的操作系统版本，不可与-f同时用
+- 	-f [path]:	对文件中的ip地址做检测，一行一个ip，不可与-h同时用
+- 	-r [n] :	设置检测线程，默认为1
+- 	示例1: ./command -h 10.1.1.1
+- 	示例2：./command -f ip.txt -r 20
 
 Linux下运行效果：
 [![Linux下运行效果](https://github.com/biggerwing/windows_version_check/blob/master/windows_version_check-Linux_verify.png "Linux下运行效果")](https://github.com/biggerwing/windows_version_check/blob/master/windows_version_check-Linux_verify.png "Linux下运行效果")
